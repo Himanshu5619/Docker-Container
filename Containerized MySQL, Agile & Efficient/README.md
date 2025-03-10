@@ -49,7 +49,7 @@ CREATE TABLE students (
     age INT
 );
 
-INSERT INTO students (name, age) VALUES ('Himanshu', 22), ('Gayatri', 24);
+INSERT INTO students (name, age) VALUES ('Alice', 22), ('Bob', 24);
 ```
 
 ---
