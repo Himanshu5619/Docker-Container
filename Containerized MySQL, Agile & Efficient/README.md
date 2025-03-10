@@ -3,7 +3,7 @@
 ## 📌 Prerequisites
 - ✅ Install Docker on your system.
 - ✅ Ensure Docker is running.
-- ✅ Create an SQL initialization script (e.g., `Tarakk_demo.sql`) with database and table definitions.
+- ✅ Create an SQL initialization script (e.g., `Himanshu_demo.sql`) with database and table definitions.
 
 ---
 
@@ -13,7 +13,7 @@ Ensure your project directory is organized as follows:
 ```
 project-directory/
 │── Dockerfile
-│── Tarakk_demo.sql
+│── Himanshu_demo.sql
 ```
 
 This structure keeps all necessary files in one place for an efficient setup.
@@ -28,7 +28,7 @@ Create a `Dockerfile` in your project directory:
 FROM mysql:latest
 
 # 📂 Copy initialization script to the container
-COPY Tarakk_demo.sql /docker-entrypoint-initdb.d/
+COPY Himanshu_demo.sql /docker-entrypoint-initdb.d/
 
 # 🔥 Expose MySQL port
 EXPOSE 3306
@@ -37,11 +37,11 @@ EXPOSE 3306
 ---
 
 ## 📜 Step 2: Create an SQL Initialization Script
-Create a file named `Tarakk_demo.sql` in the same directory:
+Create a file named `Himanshu_demo.sql` in the same directory:
 
 ```sql
 CREATE DATABASE Tarak;
-USE Tarak;
+USE Himanshu;
 
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -49,7 +49,7 @@ CREATE TABLE students (
     age INT
 );
 
-INSERT INTO students (name, age) VALUES ('Alice', 22), ('Bob', 24);
+INSERT INTO students (name, age) VALUES ('Himanshu', 22), ('Gayatri', 24);
 ```
 
 ---
@@ -109,10 +109,10 @@ After logging into MySQL, check the available databases:
 SHOW DATABASES;
 ```
 
-🔄 Switch to the `Tarak` database:
+🔄 Switch to the `Himanshu` database:
 
 ```sql
-USE Tarak;
+USE Himanshu;
 ```
 
 📊 Query the `students` table:
