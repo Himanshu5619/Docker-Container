@@ -3,7 +3,7 @@
 This guide explains how to deploy a microservices architecture using Docker Swarm with an API Gateway and a Backend Service.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/6aa77085daae451d6bd1df2cc3d12c78998797b3/Microservices%20Architecture%20using%20Docker%20Swarm/assets/docker-to-swarm-1.png" alt="Docker to Swarm" width="300" />
+  <img src="https://github.com/Himanshu5619/Docker-Container/blob/main/My-Docker-Dockyard-main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/docker-to-swarm-1.png" alt="Docker to Swarm" width="300" />
 </p>
 
 
@@ -26,7 +26,7 @@ docker swarm init
 This makes your machine the Swarm Manager.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/6608dac43e01c02694a65abaaeb704b9cb618708/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015611.png" alt="Project Screenshot" />
+  <img src="https://github.com/Himanshu5619/Docker-Container/blob/main/My-Docker-Dockyard-main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015611.png" alt="Project Screenshot" />
 </p>
 
 ## 📁 Project Structure
@@ -145,7 +145,7 @@ networks:
 docker stack deploy -c docker-compose.yml my_microservices
 ```
 <p align="center">
-  <img src="My-Docker-Dockyard-main/Microservices Architecture using Docker Swarm/assets/Screenshot 2025-03-19 015836.png" alt="Project Screenshot 2" />
+  <img src="https://github.com/Himanshu5619/Docker-Container/blob/main/My-Docker-Dockyard-main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015836.png" alt="Project Screenshot 2" />
 </p>
 
 ## 📊 Step 6: Verify the Deployment
@@ -153,14 +153,14 @@ docker stack deploy -c docker-compose.yml my_microservices
 docker stack services my_microservices
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/1f2c3564c5332d4c1df541e133a6ffe858f5c3e5/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015857.png" alt="Project Screenshot 3" />
+  <img src="https://github.com/Himanshu5619/Docker-Container/blob/main/My-Docker-Dockyard-main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015857.png" alt="Project Screenshot 3" />
 </p>
 
 ```sh
 docker ps
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/1f2c3564c5332d4c1df541e133a6ffe858f5c3e5/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015912.png" alt="Project Screenshot 4" />
+  <img src="https://github.com/Himanshu5619/Docker-Container/blob/main/My-Docker-Dockyard-main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015912.png" alt="Project Screenshot 4" />
 </p>
 
 ## 🌐 Step 7: Access the Microservices
