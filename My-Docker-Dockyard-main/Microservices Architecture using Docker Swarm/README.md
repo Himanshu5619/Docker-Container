@@ -171,7 +171,7 @@ http://localhost:8080
 You should see: **API Gateway: singh_himanshu**
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/d470c6d6dac0fd0010f139168e48e4086da874f4/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015441.png" alt="Project Screenshot" />
+  <img src="My-Docker-Dockyard-main/Microservices Architecture using Docker Swarm/assets/Screenshot 2025-03-19 015441.png" alt="Project Screenshot" />
 </p>
 
 ## 🔄 Step 8: Scaling the Services
