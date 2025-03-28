@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  auth-service:
+    image: auth-service:latest
+    ports:
+      - "5000:5000"
+    deploy:
+      replicas: 3
+      restart_policy:
+        condition: on-failure
+    networks:
+      - app-network
+
+  user-service:
+    image: user-service:latest
+    ports:
+      - "5001:5001"
+    deploy:
+      replicas: 3
+      restart_policy:
+        condition: on-failure
+    networks:
+      - app-network
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: appdb
+    volumes:
+      - db-data:/var/lib/mysql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+
+volumes:
+  db-data:
