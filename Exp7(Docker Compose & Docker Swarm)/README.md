@@ -39,7 +39,9 @@ docker-compose up -d
 ```bash
 docker-compose ps
 ```
-
+<p align="center">
+  <img src="https://github.com/Himanshu5619/Docker-Container/blob/main/Exp7(Docker%20Compose%20%26%20Docker%20Swarm)/SS/Screenshot%202025-03-28%20095556.png" alt="Build the Services">
+</p>
 ### 4. **Test the Services**
 ```bash
 curl http://localhost:5000/auth
