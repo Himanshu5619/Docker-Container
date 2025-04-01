@@ -19,6 +19,10 @@ To install the required dependencies, open your terminal and run:
 ```sh
 pip install pyyaml
 ```
+<p align="center">
+  <img src="[https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/832b5736931414654f7f86f829d835fd54015c7f/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/assets/Screenshot%202025-02-20%20032050.png" alt="Streamlit App Screenshot](https://github.com/Himanshu5619/Docker-Container/blob/main/Python_Yaml/Screenshot%202025-04-01%20173925.png)">
+</p>
+```
 
 ## 📄 Creating the YAML File
 Before running the application, create a file named **`students.yaml`** and structure it as follows:
