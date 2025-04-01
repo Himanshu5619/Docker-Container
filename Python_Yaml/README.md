@@ -89,8 +89,7 @@ Name: Eva, Age: 21, Major: Computer Science, GPA: 3.7
 🔹 Extend `app.py` to include sorting features.
 🔹 Implement CRUD operations to manage students dynamically.
 
-## 📜 License
-This project is **open-source** and can be modified or distributed freely.
+
 
 ---
 
