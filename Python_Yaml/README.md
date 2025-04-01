@@ -59,6 +59,12 @@ students:
 ```sh
 python app.py
 ```
+<p align="center">
+  <img src="https://github.com/Himanshu5619/Docker-Container/blob/main/Python_Yaml/Screenshot%202025-04-01%20174312.png">
+</p>
+
+--------
+
 3️⃣ Follow the on-screen instructions to filter students by GPA.
 
 ## 🖥️ Expected Output
